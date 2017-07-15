@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1500138867 source:d:\codeblocks\projects\kmeans\main.cpp
+	<iostream>
+	<vector>
+	"KMeans.h"
+	<stdlib.h>
+
+1500147445 d:\codeblocks\projects\kmeans\include\kmeans.h
+	<vector>
+	"Cluster.h"
+
+1500147450 d:\codeblocks\projects\kmeans\include\cluster.h
+	<vector>
+	<iostream>
+
+1500138940 source:d:\codeblocks\projects\kmeans\src\cluster.cpp
+	"Cluster.h"
+	<math.h>
+	<iostream>
+	<assert.h>
+
+1500147455 source:d:\codeblocks\projects\kmeans\src\kmeans.cpp
+	"KMeans.h"
+	<assert.h>
+	<iostream>
+	<limits>
+	<stdlib.h>
+
+1136926738 d:\codeblocks\koolplot\koolplot.h
+	"Plotstream.h"
+
+1120722562 d:\codeblocks\koolplot\plotstream.h
+	<graphics.h>
+	"PlotData.h"
+
+1500129981 d:\codeblocks\koolplot\graphics.h
+	<windows.h>
+	<limits.h>
+	<sstream>
+
+1151518450 d:\codeblocks\koolplot\plotdata.h
+	<cmath>
+	<vector>
+	<iostream>
+
