@@ -6,7 +6,7 @@ A C++ implementation of the KMeans clustering algorithm.
 ### Instantiate a KMeans object:
 KMeans km = KMeans( dataframe* df, const unsigned k )
 
-The dataframe structure is a standard vector of pointers to vector of doubles (i.e. vector< vector<double>* >)
+The dataframe structure is a standard vector of pointers to vector of doubles (i.e. vector\< vector\<double\>* \>)
 An example of dataframe generation is contained in the main.cpp (read_data function).
 
 
@@ -19,7 +19,7 @@ This will generate the clusters. The parameter indicates the maximum number of i
 
 ### Predictions (only after training):
 
-vector<unsigned> km.predict ( dataframe* df );
+vector\<unsigned\> km.predict ( dataframe* df );
 
 This will assign the predicted cluster for each record contained in the data frame. Note that the data frame columns should be the same as the ones used in the training phase with execute(). This function will return a vector of clusters ids (predictions).
 
